@@ -1,0 +1,344 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+    color: #0275d8;
+}
+
+header {
+    background-color: #0275d8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+header .logo {
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header .logo h1 {
+    font-size: 2em;
+    margin: 0;
+    color: white;
+}
+
+.btn-nav {
+    text-decoration: none;
+    color: white;
+    background-color: #5bc0de;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em;
+}
+
+.btn-nav:hover {
+    background-color: #31b0d5;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffeb3b;
+    color: #333;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #0275d8;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.hero-image {
+    max-width: 45%;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero-image figcaption {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #555;
+}
+
+#benefits {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#benefits h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #0275d8;
+}
+
+.benefit {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.benefit h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0275d8;
+}
+
+.benefit p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+#menu-dia {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#menu-dia .menu-info {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+#menu-dia .menu-info h2 {
+    color: #0275d8;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#menu-dia .menu-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#menu-dia .menu-info figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+#menu-dia .menu-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #0275d8;
+    color: white;
+}
+
+table td {
+    background-color: #f4f4f9;
+}
+
+a.btn-nav {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a.btn-nav:hover {
+    background-color: #31b0d5;
+}
+
+.form-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"], input[type="password"], button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #0275d8;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #0275d8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-links a {
+    color: #0275d8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}
+
+#perfil {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-info {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.perfil-info h2 {
+    font-size: 2em;
+    color: #0275d8;
+    margin-bottom: 20px;
+}
+
+.perfil-details {
+    margin-bottom: 30px;
+}
+
+.perfil-details p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+}
+
+.perfil-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.perfil-actions .btn-nav {
+    background-color: #5bc0de;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.perfil-actions .btn-nav:hover {
+    background-color: #31b0d5;
+}
+
+.perfil-image {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.perfil-image img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #0275d8;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
